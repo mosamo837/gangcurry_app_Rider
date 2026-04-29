@@ -1,0 +1,43 @@
+import '../models/parcel.dart';
+
+const List<Parcel> sampleParcels = [
+  Parcel(
+    trackingNumber: 'TH240426001',
+    customerName: 'สมชาย ใจดี',
+    address: '88/12 ถนนสุขุมวิท แขวงคลองตัน เขตวัฒนา กรุงเทพฯ',
+    phoneNumber: '081-234-5678',
+    deliveryWindow: '09:00 - 11:00',
+    note: 'ฝากรปภ.ไว้ได้ถ้าลูกค้าไม่อยู่',
+    status: 'รอจัดส่ง',
+    riderLatitude: 13.7241,
+    riderLongitude: 100.5760,
+    destinationLatitude: 13.7367,
+    destinationLongitude: 100.5829,
+  ),
+  Parcel(
+    trackingNumber: 'TH240426002',
+    customerName: 'อรทัย แก้วตา',
+    address: '159 หมู่ 4 ต.บ้านเป็ด อ.เมืองขอนแก่น จ.ขอนแก่น',
+    phoneNumber: '089-111-2233',
+    deliveryWindow: '11:30 - 13:00',
+    note: 'โทรก่อนเข้าจัดส่ง 10 นาที',
+    status: 'กำลังนำส่ง',
+    riderLatitude: 16.4320,
+    riderLongitude: 102.8030,
+    destinationLatitude: 16.4464,
+    destinationLongitude: 102.8358,
+  ),
+  Parcel(
+    trackingNumber: 'TH240426003',
+    customerName: 'พิชิต วัฒนา',
+    address: '45/9 ซอยรามคำแหง 24 แขวงหัวหมาก เขตบางกะปิ กรุงเทพฯ',
+    phoneNumber: '092-888-4455',
+    deliveryWindow: '14:00 - 16:00',
+    note: 'รับพัสดุที่ออฟฟิศชั้น 3',
+    status: 'รอจัดส่ง',
+    riderLatitude: 13.7563,
+    riderLongitude: 100.6447,
+    destinationLatitude: 13.7499,
+    destinationLongitude: 100.6074,
+  ),
+];
